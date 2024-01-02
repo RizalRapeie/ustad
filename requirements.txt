@@ -1,4 +1,3 @@
-pickle
 streamlit
-graphviz
-scikit-learn
+pandas
+mlxtend
