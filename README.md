@@ -5,27 +5,27 @@
 
 ## Domain Proyek
 
-Dengan keindahan dan ketahanannya, serta merupakan permata alami dengan nilai yang sangat tinggi. Untuk mempersiapkan masa tua kita nanti alangkah baiknya kita berinvestasi pada permata yang bernama berlian ini?? Berikut adalah applikasi web yang saya kembangkan untuk memprediksi/mengestimasi harga berlian berdasarkan spesifikasi yang anda inginkan.
+Didasari pada datset penjualan barang di sebuah supermarket, yang mana dataset nya tersedia di kaggle. Dengan dataset tersebut kta bisa coba lakukan Market basket analisys dengan apriori supaya kita bisa menentukan keterikatan suatu item pada association rules.
 
 ## Business Understanding
+
+Algoritma Apriori adalah salah satu algoritma pada data mining untuk mencari frequent item/itemset pada transaksional database. Algoritma apriori pertama kali diperkenalkan oleh R.Agarwal dan R Srikant untuk mencari frequent tertinggi dari suatu database. 
+Algoritma apriori banyak digunakan pada data transaksi atau biasa disebut market basket, misalnya sebuah swalayan memiliki market basket, dengan adanya algoritma apriori, pemilik swalayan dapat mengetahui pola pembelian seorang konsumen. 
+Atau algoritma apriori juga bisa digunakan oleh restoran cepat saji dalam menentukan paket menu makanan atau minuman yang ada di restoran mereka berdasakan pola beli konsumen.
 
 ### Problem Statements
 
 Menjelaskan pernyataan masalah latar belakang:
-- Semakin sulitnya mencari sarana investasi jangka panjang yang terjamin dan mudah untuk dicairkan maupun diwariskan.
-- Dengan budget yang terbatas alangkah baiknya kita mendapatkan harga yang sesuai dengan spesifikasi berlian yang kita inginkan.
-- Banyaknya penjual berlian ini memasang dengan harga yang sangat tinggi
+- Sulitnya menentukan diskon, paket penjualan karena dalam penjualan supermarket pola pembelian beragam
 
 ### Goals
 
 Menjelaskan tujuan dari pernyataan masalah:
-- Dengan memudahkan kalian dalam mematok harga untuk investasi akan menjadi lebih mudah untuk mendapatkan harga berlian yang sesuai sehingga untuk membelinya pun menjadi mudah.
-- Mendapatkan harga yang sesuai dengan spesifikasi yang diinginkan
-- Agar tidak mendapatkan harga yang terlalu tinggi dari penjual, sehingga investasi anda tidak berujung buntung.
+- Memudahkan menetukan diskon, paket penjualan dan stok barang dengan mempelajari pola pembelian customer
 
 ## Data Understanding
-Disini saya menggunakan datasets Diamond Prices dari kaggle, yang berisikan 10 kolom dan 53,940 baris : <br>
-Contoh: [Diamonds Prices](https://www.kaggle.com/datasets/nancyalaswad90/diamonds-prices).
+Disini saya menggunakan datasets Groceries dataset dari kaggle
+[Groceries dataset](https://www.kaggle.com/datasets/heeraldedhia/groceries-dataset).
 
 ### Variabel-variabel pada Diamonds Prices Dataset adalah sebagai berikut:
 - carat     : merupakan jumlah karat yang ada pada berlian.
@@ -258,6 +258,5 @@ print('F1 Score:', f1)
 f1 score yang didapat adalah 94.9% dan itu sudah cukup besar. Yang artinya model ini memiliki performa yang seimbang antara presisi dan recall, serta keyakinan yang tinggi terhadap prediksi. Jadi tidak diragukan lagi hasil prediksi dari model ini cukup tepat.
 
 ## Deployment
-[Estimasi Harga Berlian](https://estimasi-harga-berlian-rizal.streamlit.app/)
-![image](https://github.com/RizalRapeie/estimasi_harga_berlian/assets/148552041/e0ed3569-6131-44a6-af94-3ff30a01c378)
-
+[MBA Groceries dataset](https://mba-apri.streamlit.app/)
+![image](https://github.com/RizalRapeie/ustad/assets/148552041/9214c69b-7b8b-4279-83b6-6c8d18c007bb)
